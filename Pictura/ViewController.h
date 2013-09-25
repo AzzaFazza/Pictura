@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UITableView *contentTable;
+@property (strong, nonatomic) IBOutlet UITabBar *boardPickerTab;
+@property (strong, nonatomic) IBOutlet UINavigationBar *navBar;
+@property (strong, nonatomic) IBOutlet UILabel *boardLabel;
 @end
